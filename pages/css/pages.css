@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
+    font-size: 16px;
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -105,4 +106,37 @@ a{
     padding: 20px;
     align-content: center;
     border-radius: 10px; 
+}
+
+.kleuren{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kleur{
+    width: 170px;
+    margin: 30px;
+}
+
+h2{
+    font-size: 44px; 
+}
+
+.titel{
+    font-size: 32px;
+    color: hsla(48, 57%, 62%, 1);
+}
+
+.highlights{
+    color: hsla(48, 57%, 62%, 1);
+    font-weight: bold;
+}
+
+.menu{
+    width: 900px;
+    align-self: center;
+}
+
+.indienen{
+    width: 120px;
 }
